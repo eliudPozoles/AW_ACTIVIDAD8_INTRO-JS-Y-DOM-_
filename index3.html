@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+      <script>
+        function ocultarImagen() {
+         const imagen = document.querySelector("#miImagen");
+        if (imagen.style.display === "none") {imagen.style.display = "block";
+
+         } else {
+                imagen.style.display = "none";
+            }
+        }
+    </script>
+
+    
+</head>
+<body>
+  
+</head>
+<body>
+     <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="image/intendente.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      regrear
+    </a>
+  </div>
+</nav>
+    <h1>ocultar foto</h1>
+
+     <button onclick="ocultarImagen()">Mostrar/Ocultar Imagen</button>
+    <img id="miImagen" src="image/intendente.png" alt="Imagen de ejemplo">
+
+</body>
+</html>
